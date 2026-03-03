@@ -17,7 +17,7 @@ import product4 from "@/assets/product-4.webp";
 const MulheresPositivas = () => {
   return (
     <div className="min-h-screen bg-background">
-      <SiteHeader />
+      
 
       {/* Hero Banner */}
       <section className="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
@@ -219,7 +219,7 @@ const MulheresPositivas = () => {
         </div>
       </section>
 
-      <SiteFooter />
+      
     </div>
   );
 };
