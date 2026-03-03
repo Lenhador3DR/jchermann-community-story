@@ -9,10 +9,10 @@ const CampaignBadge = ({ className = "" }: CampaignBadgeProps) => {
   return (
     <Link
       to="/mulheres-positivas"
-      className={`campaign-badge ${className}`}
+      className={className}
       title="Conheça a ação Mulheres Positivas"
     >
-      <img src={mulheresIcon} alt="Mulheres Positivas" className="h-5 w-auto" />
+      <img src={mulheresIcon} alt="Mulheres Positivas" className="h-10 w-auto" />
     </Link>
   );
 };
