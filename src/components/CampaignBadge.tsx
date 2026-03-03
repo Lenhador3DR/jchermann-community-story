@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart } from "lucide-react";
+import mulheresIcon from "@/assets/mulheres-positivas-icon.png";
 
 interface CampaignBadgeProps {
   className?: string;
@@ -12,8 +12,7 @@ const CampaignBadge = ({ className = "" }: CampaignBadgeProps) => {
       className={`campaign-badge ${className}`}
       title="Conheça a ação Mulheres Positivas"
     >
-      <Heart className="w-3 h-3" />
-      <span>Mulheres Positivas</span>
+      <img src={mulheresIcon} alt="Mulheres Positivas" className="h-5 w-auto" />
     </Link>
   );
 };

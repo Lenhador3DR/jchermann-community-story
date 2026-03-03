@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import mulheresIcon from "@/assets/mulheres-positivas-icon.png";
 import { Button } from "@/components/ui/button";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -95,7 +96,7 @@ const MulheresPositivas = () => {
               de desenvolvimento pessoal e profissional, e não pretendemos parar por aqui.
             </p>
             <div className="flex items-center gap-2 text-primary">
-              <Heart className="w-4 h-4" />
+              <img src={mulheresIcon} alt="Mulheres Positivas" className="h-6 w-auto" />
               <span className="text-sm font-body font-medium">+500 mulheres impactadas</span>
             </div>
           </div>
@@ -170,7 +171,7 @@ const MulheresPositivas = () => {
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center py-8 px-6 bg-campaign-blush rounded-sm">
             <div className="flex items-center gap-3">
               <div className="w-16 h-16 rounded-full bg-campaign-warm flex items-center justify-center">
-                <Heart className="w-6 h-6 text-campaign-deep" />
+                <img src={mulheresIcon} alt="Mulheres Positivas" className="h-10 w-auto" />
               </div>
               <span className="font-heading text-xl font-semibold text-campaign-deep">
                 Mulheres Positivas
@@ -196,7 +197,7 @@ const MulheresPositivas = () => {
           </div>
           <div>
             <span className="campaign-badge mb-4 inline-flex">
-              <Heart className="w-3 h-3" />
+              <img src={mulheresIcon} alt="" className="h-4 w-auto" />
               Edição Limitada
             </span>
             <h2 className="campaign-heading text-3xl md:text-4xl font-light text-foreground mb-3 leading-tight">
