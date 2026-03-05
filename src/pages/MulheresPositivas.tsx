@@ -51,7 +51,7 @@ const MulheresPositivas = () => {
           <p className="campaign-body text-muted-foreground text-base md:text-lg mb-6">
             A J.Chermann acredita que a moda vai além da roupa. É sobre empoderamento, 
             autoestima e conexão. Por isso, criamos o projeto Mulheres Positivas — uma 
-            iniciativa que destina parte da renda de peças exclusivas para organizações 
+            iniciativa que destina parte da renda do produto exclusivo para organizações 
             que apoiam mulheres em situação de vulnerabilidade.
           </p>
           <p className="campaign-body text-muted-foreground text-base md:text-lg">
@@ -83,8 +83,8 @@ const MulheresPositivas = () => {
               <span className="italic">apoia mulheres</span>
             </h2>
             <p className="campaign-body text-muted-foreground mb-4">
-              Em parceria com o Instituto Mulheres Positivas, a J.Chermann desenvolveu uma 
-              coleção cápsula exclusiva. 15% do valor de cada peça é destinado a programas de 
+              Em parceria com o Instituto Mulheres Positivas, a J.Chermann desenvolveu um 
+              produto exclusivo. 15% do valor de cada peça é destinado a programas de
               capacitação profissional, mentoria e apoio psicológico para mulheres em todo o Brasil.
             </p>
             <p className="campaign-body text-muted-foreground mb-6">
@@ -126,10 +126,10 @@ const MulheresPositivas = () => {
         <div className="max-w-[1200px] mx-auto">
           <div className="text-center mb-12">
             <span className="text-xs font-body font-semibold uppercase tracking-[0.3em] text-campaign-rose mb-4 block">
-              Coleção Exclusiva
+              Peça Exclusiva
             </span>
             <h2 className="campaign-heading text-2xl md:text-3xl font-light text-foreground">
-              Peças da <span className="italic">ação</span>
+              Produto da <span className="italic">ação</span>
             </h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
@@ -147,8 +147,8 @@ const MulheresPositivas = () => {
                     className="w-full aspect-[3/4] object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
-                  <div className="absolute top-3 left-3 z-10">
-                    <CampaignBadge />
+                  <div className="absolute top-3 right-3 z-10">
+                    <CampaignBadge className="[&_img]:h-[60px]" />
                   </div>
                 </div>
                 <p className="text-sm font-heading italic text-muted-foreground text-center">{item.phrase}</p>
@@ -159,15 +159,15 @@ const MulheresPositivas = () => {
           {/* Mulheres Positivas tag callout */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center py-8 px-6 bg-campaign-blush rounded-sm">
             <div className="flex items-center gap-3">
-              <div className="w-16 h-16 rounded-full bg-campaign-warm flex items-center justify-center">
-                <img src={mulheresIcon} alt="Mulheres Positivas" className="h-10 w-auto" />
+              <div className="w-40 h-40 rounded-full bg-campaign-warm flex items-center justify-center">
+                <img src={mulheresIcon} alt="Mulheres Positivas" className="h-32 w-auto" />
               </div>
               <span className="font-heading text-xl font-semibold text-campaign-deep">
                 Mulheres Positivas
               </span>
             </div>
             <p className="campaign-body text-muted-foreground text-center md:text-left max-w-md">
-              Uma tag será colocada em todos os produtos para dar força à ação.
+              Uma tag será colocada no produto para dar força à ação.
             </p>
           </div>
         </div>
