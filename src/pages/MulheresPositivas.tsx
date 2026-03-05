@@ -30,18 +30,18 @@ const MulheresPositivas = () => {
           <span className="text-xs font-body font-semibold uppercase tracking-[0.3em] text-campaign-rose mb-6 block">
             Sobre o Projeto
           </span>
-          <h2 className="campaign-heading text-3xl md:text-4xl font-light text-foreground mb-8 leading-tight">
+          <h2 className="campaign-heading text-4xl md:text-5xl font-light text-foreground mb-8 leading-tight">
             Moda que transforma,
             <br />
             <span className="italic">mulheres que inspiram</span>
           </h2>
-          <p className="campaign-body text-muted-foreground text-base md:text-lg mb-6">
+          <p className="campaign-body text-muted-foreground text-lg md:text-xl mb-6">
             A J.Chermann acredita que a moda vai além da roupa. É sobre empoderamento, 
             autoestima e conexão. Por isso, criamos o projeto Mulheres Positivas — uma 
             iniciativa que destina parte da renda do produto exclusivo para organizações 
             que apoiam mulheres em situação de vulnerabilidade.
           </p>
-          <p className="campaign-body text-muted-foreground text-base md:text-lg">
+          <p className="campaign-body text-muted-foreground text-lg md:text-xl">
             Cada peça carrega não apenas o nosso DNA de elegância e conforto, mas 
             também o compromisso de fazer a diferença na vida de quem mais precisa. 
             Ao vestir J.Chermann, você se une a essa causa.
@@ -64,17 +64,17 @@ const MulheresPositivas = () => {
             <span className="text-xs font-body font-semibold uppercase tracking-[0.3em] text-campaign-rose mb-4 block">
               Nossa Parceria
             </span>
-            <h2 className="campaign-heading text-2xl md:text-3xl font-light text-foreground mb-6 leading-tight">
+            <h2 className="campaign-heading text-3xl md:text-4xl font-light text-foreground mb-6 leading-tight">
               Apoiando quem
               <br />
               <span className="italic">apoia mulheres</span>
             </h2>
-            <p className="campaign-body text-muted-foreground mb-4">
+            <p className="campaign-body text-muted-foreground text-lg mb-4">
               Em parceria com o Instituto Mulheres Positivas, a J.Chermann desenvolveu um 
               produto exclusivo. 15% do valor de cada peça é destinado a programas de
               capacitação profissional, mentoria e apoio psicológico para mulheres em todo o Brasil.
             </p>
-            <p className="campaign-body text-muted-foreground mb-6">
+            <p className="campaign-body text-muted-foreground text-lg mb-6">
               Desde o lançamento do projeto, já impactamos mais de 500 mulheres com programas 
               de desenvolvimento pessoal e profissional, e não pretendemos parar por aqui.
             </p>
@@ -98,7 +98,7 @@ const MulheresPositivas = () => {
             />
           </div>
           <div className="md:order-1">
-            <blockquote className="campaign-heading text-2xl md:text-3xl font-light italic text-foreground leading-relaxed mb-6">
+            <blockquote className="campaign-heading text-3xl md:text-4xl font-light italic text-foreground leading-relaxed mb-6">
               "Cada peça conta uma história de superação e força. 
               Queremos que as mulheres se sintam bonitas e, ao mesmo tempo, 
               parte de algo maior."
@@ -115,7 +115,7 @@ const MulheresPositivas = () => {
             <span className="text-xs font-body font-semibold uppercase tracking-[0.3em] text-campaign-rose mb-4 block">
               Peça Exclusiva
             </span>
-            <h2 className="campaign-heading text-2xl md:text-3xl font-light text-foreground">
+            <h2 className="campaign-heading text-3xl md:text-4xl font-light text-foreground">
               Produto da <span className="italic">ação</span>
             </h2>
           </div>
@@ -165,7 +165,7 @@ const MulheresPositivas = () => {
               <br />
               <span className="italic">Positivas</span>
             </h2>
-            <p className="campaign-body text-muted-foreground mb-6">
+            <p className="campaign-body text-muted-foreground text-lg mb-6">
               Camiseta exclusiva da ação Mulheres Positivas. 100% algodão orgânico com 
               estampa floral artesanal. 15% da renda é destinada ao Instituto Mulheres Positivas.
             </p>
