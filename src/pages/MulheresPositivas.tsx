@@ -119,12 +119,10 @@ const MulheresPositivas = () => {
               Produto da <span className="italic">ação</span>
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
+          <div className="grid grid-cols-2 gap-4 md:gap-6 mb-12 max-w-[800px] mx-auto">
             {[
               { image: productTshirt, phrase: "Mulheres que florescem" },
               { image: productDetail1, phrase: "Moda com propósito" },
-              { image: productDetail2, phrase: "Vista essa causa" },
-              { image: productTshirt, phrase: "Juntas somos mais fortes" },
             ].map((item, i) => (
               <div key={i} className="group cursor-pointer">
                 <div className="relative overflow-hidden mb-3">
