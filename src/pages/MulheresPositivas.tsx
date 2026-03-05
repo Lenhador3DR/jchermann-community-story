@@ -2,17 +2,13 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import mulheresIcon from "@/assets/mulheres-positivas-icon.png";
 import { Button } from "@/components/ui/button";
-import SiteHeader from "@/components/SiteHeader";
-import SiteFooter from "@/components/SiteFooter";
-import ProductCard from "@/components/ProductCard";
+import CampaignBadge from "@/components/CampaignBadge";
 import heroCampaign from "@/assets/hero-campaign.webp";
 import campaignGroup from "@/assets/campaign-group.webp";
 import campaignDetail from "@/assets/campaign-detail.webp";
 import productTshirt from "@/assets/product-tshirt.webp";
-import product1 from "@/assets/product-1.webp";
-import product2 from "@/assets/product-2.webp";
-import product3 from "@/assets/product-3.webp";
-import product4 from "@/assets/product-4.webp";
+import productDetail1 from "@/assets/product-detail-1.webp";
+import productDetail2 from "@/assets/product-detail-2.webp";
 
 const MulheresPositivas = () => {
   return (
@@ -137,34 +133,27 @@ const MulheresPositivas = () => {
             </h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
-            <ProductCard
-              image={product1}
-              name="Calça Legging Floral Vintage"
-              price="R$728,00"
-              installments="3x de R$242,67"
-              showBadge
-            />
-            <ProductCard
-              image={product4}
-              name="Calça Legging Floral Vintage"
-              price="R$728,00"
-              installments="3x de R$242,67"
-              showBadge
-            />
-            <ProductCard
-              image={product2}
-              name="Camiseta Drapeada Tule Floral Vintage"
-              price="R$648,00"
-              installments="3x de R$216,00"
-              showBadge
-            />
-            <ProductCard
-              image={product3}
-              name="Camiseta Drapeada Tule Floral Vintage"
-              price="R$648,00"
-              installments="3x de R$216,00"
-              showBadge
-            />
+            {[
+              { image: productTshirt, phrase: "Mulheres que florescem" },
+              { image: productDetail1, phrase: "Moda com propósito" },
+              { image: productDetail2, phrase: "Vista essa causa" },
+              { image: productTshirt, phrase: "Juntas somos mais fortes" },
+            ].map((item, i) => (
+              <div key={i} className="group cursor-pointer">
+                <div className="relative overflow-hidden mb-3">
+                  <img
+                    src={item.image}
+                    alt={item.phrase}
+                    className="w-full aspect-[3/4] object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute top-3 left-3 z-10">
+                    <CampaignBadge />
+                  </div>
+                </div>
+                <p className="text-sm font-heading italic text-muted-foreground text-center">{item.phrase}</p>
+              </div>
+            ))}
           </div>
 
           {/* Mulheres Positivas tag callout */}
