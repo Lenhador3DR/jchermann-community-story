@@ -16,25 +16,12 @@ const MulheresPositivas = () => {
       
 
       {/* Hero Banner */}
-      <section className="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
+      <section className="relative w-full h-[80vh] md:h-[85vh] overflow-hidden">
         <img
           src={heroCampaign}
           alt="Mulheres Positivas - J.Chermann"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center md:object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-foreground/10 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 px-6 pb-16 md:pb-24">
-          <div className="max-w-[1200px] mx-auto">
-            <h1 className="campaign-heading text-4xl md:text-6xl lg:text-7xl font-light text-primary-foreground leading-none mb-4">
-              Mulheres
-              <br />
-              <span className="italic font-normal">Positivas</span>
-            </h1>
-            <p className="campaign-body text-base md:text-lg text-primary-foreground/80 max-w-md">
-              Moda com propósito. Uma ação que celebra e fortalece mulheres.
-            </p>
-          </div>
-        </div>
       </section>
 
       {/* Intro Text */}
@@ -156,20 +143,6 @@ const MulheresPositivas = () => {
             ))}
           </div>
 
-          {/* Mulheres Positivas tag callout */}
-          <div className="flex flex-col md:flex-row items-center gap-6 justify-center py-8 px-6 bg-campaign-blush rounded-sm">
-            <div className="flex items-center gap-3">
-              <div className="w-40 h-40 rounded-full bg-campaign-warm flex items-center justify-center">
-                <img src={mulheresIcon} alt="Mulheres Positivas" className="h-32 w-auto" />
-              </div>
-              <span className="font-heading text-xl font-semibold text-campaign-deep">
-                Mulheres Positivas
-              </span>
-            </div>
-            <p className="campaign-body text-muted-foreground text-center md:text-left max-w-md">
-              Uma tag será colocada no produto para dar força à ação.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -185,8 +158,8 @@ const MulheresPositivas = () => {
             />
           </div>
           <div>
-            <span className="campaign-badge mb-4 inline-flex">
-              <img src={mulheresIcon} alt="" className="h-4 w-auto" />
+            <span className="campaign-badge mb-4 inline-flex items-center gap-2">
+              <img src={mulheresIcon} alt="" className="h-10 w-auto" />
               Edição Limitada
             </span>
             <h2 className="campaign-heading text-3xl md:text-4xl font-light text-foreground mb-3 leading-tight">
@@ -198,8 +171,8 @@ const MulheresPositivas = () => {
               Camiseta exclusiva da ação Mulheres Positivas. 100% algodão orgânico com 
               estampa floral artesanal. 15% da renda é destinada ao Instituto Mulheres Positivas.
             </p>
-            <p className="text-2xl font-heading font-semibold text-primary mb-1">R$298,00</p>
-            <p className="text-sm font-body text-muted-foreground mb-8">3x de R$99,33 sem juros</p>
+            <p className="text-2xl font-heading font-semibold text-primary mb-1">R$148,00</p>
+            <p className="text-sm font-body text-muted-foreground mb-8">Pague parcelado sem juros</p>
             <Button variant="default" className="rounded-none px-12 py-6 text-sm font-body uppercase tracking-widest">
               Comprar agora
               <ArrowRight className="w-4 h-4 ml-2" />
